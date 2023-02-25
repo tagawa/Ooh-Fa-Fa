@@ -12,3 +12,7 @@ Enhancements for your Fathom Analytics dashboard. (Unofficial)
 ## Requirements
 
 A [Fathom Analytics](https://usefathom.com/) account.
+
+## Acknowledgements
+
+The logo is by [iconmonstr](https://iconmonstr.com/).
