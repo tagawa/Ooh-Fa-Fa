@@ -1,0 +1,29 @@
+main {
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1em;
+}
+h1, h2, h3, h4 {
+  font-weight: normal;
+  line-height: 1;
+}
+h1 {
+  font-size: 1.5em;
+}
+label {
+  display: block;
+  margin: 1em auto;
+}
+[type=checkbox]+.checkable:before, [type=radio]+.checkable:before, [type=checkbox]+.checkable:after, [type=radio]+.checkable:after {
+  top: 0.55em;
+}
+#btn_save {
+  background-color: #8D4BFF;
+  width: 100%;
+}
+#output_save {
+  display: block;
+  text-align: center;
+  font-size: smaller;
+}

@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Ooh Fa Fa",
+  "version": "0.1.0",
+  "description": "Enhancements for your Fathom Analytics dashboard. (Unofficial)",
+  "author": "developer@example.com", 
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+        "16": "/img/ooh-fa-fa_16.png",
+        "32": "/img/ooh-fa-fa_32.png",
+        "48": "/img/ooh-fa-fa_48.png",
+        "64": "/img/ooh-fa-fa_64.png",
+        "128": "/img/ooh-fa-fa_128.png",
+        "256": "/img/ooh-fa-fa_256.png",
+        "512": "/img/ooh-fa-fa_512.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.usefathom.com/*"],
+      "js": ["js/common.js", "js/ooh-fa-fa.js"],
+      "css": ["css/ooh-fa-fa.css", "css/fonts-embedded.css", "css/fonts-style.css", "css/flags.css"]
+    }
+  ],
+  "options_ui": {
+    "page": "html/options.html",
+    "open_in_tab": false
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{11bd8a94-c5a6-4090-a959-be6b37be96c7}",
+      "strict_min_version": "109.0a1"
+    }
+  }
+}

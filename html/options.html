@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/picnic.min.css">
+  <link rel="stylesheet" href="../css/options.css">
+  <title>Ooh Fa Fa Options Page</title>
+</head>
+<body>
+  <main>
+    <h1>Options</h1>
+  
+    <form id="frm_options">
+      
+      <label>
+        <span class="checkable">Main chart colour:</span>
+        <input type="color" value="#5345ea" id="input_chart_color">
+      </label>
+    
+      <label>
+        <input type="checkbox" id="input_chart_yaxis">
+        <span class="checkable">Hide y-axis on chart screenshot.</span>
+      </label>
+  
+      <label>
+        <input type="checkbox" id="input_chart_title">
+        <span class="checkable">Hide title on chart screenshot.</span>
+      </label>
+    
+      <label>
+        <input type="checkbox" id="input_chart_credits">
+        <span class="checkable">Hide credits on chart screenshot.</span>
+      </label>
+  
+      <label>
+        <input type="checkbox" id="input_icons">
+        <span class="checkable">Hide icons in data boxes.</span>
+      </label>
+    
+      <label>
+        <input type="checkbox" id="input_views_visitor">
+        <span class="checkable">Hide views/visitor in data boxes.</span>
+      </label>
+    
+      <button id="btn_save">Save</button>
+      <output id="output_save"></output>
+    </form>
+  </main>
+  <script src="../js/options.js"></script>
+</body>
+</html>

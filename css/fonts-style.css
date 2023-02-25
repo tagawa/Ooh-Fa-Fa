@@ -1,0 +1,58 @@
+
+[class^="ooh-fa-fa-icon-"]:before, [class*=" ooh-fa-fa-icon-"]:before {
+  font-family: "ooh-fa-fa-fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  opacity: 0.8;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .4em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+
+.ooh-fa-fa-icon-camera:before { content: '\e800'; opacity: 1; } /* '' */
+.ooh-fa-fa-icon-search:before { content: '\e801'; } /* '' */
+.ooh-fa-fa-icon-website:before { content: '\e802'; } /* '' */
+.ooh-fa-fa-icon-mail:before { content: '\e803'; } /* '' */
+.ooh-fa-fa-icon-social:before { content: '\e804'; } /* '' */
+.ooh-fa-fa-icon-user:before { content: '\e805'; } /* '' */
+.ooh-fa-fa-icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.ooh-fa-fa-icon-desktop:before { content: '\f108'; } /* '' */
+.ooh-fa-fa-icon-laptop:before { content: '\f109'; } /* '' */
+.ooh-fa-fa-icon-tablet:before { content: '\f10a'; } /* '' */
+.ooh-fa-fa-icon-phone:before { content: '\f10b'; } /* '' */
+.ooh-fa-fa-icon-safari:before { content: '\f267'; } /* '' */
+.ooh-fa-fa-icon-chrome:before { content: '\f268'; } /* '' */
+.ooh-fa-fa-icon-firefox:before { content: '\f269'; } /* '' */
+.ooh-fa-fa-icon-opera:before { content: '\f26a'; } /* '' */
+.ooh-fa-fa-icon-ie:before { content: '\f26b'; } /* '' */
+.ooh-fa-fa-icon-edge:before { content: '\f282'; } /* '' */
+
+
+
