@@ -9,6 +9,8 @@ Enhancements for your Fathom Analytics dashboard. (Unofficial)
 * Icons for referrer type (search, social, mail, website).
 * Icons for device type, browser and country.
 
+![ooh-fa-fa_screenshot_v0-1](https://user-images.githubusercontent.com/94173/221326504-ec3ecfe2-0f29-4152-b1d2-f9e2d5fd6a65.png)
+
 ## Requirements
 
 A [Fathom Analytics](https://usefathom.com/) account.
