@@ -1,6 +1,9 @@
 # Ooh-Fa-Fa
 Enhancements for your Fathom Analytics dashboard. (Unofficial)
 
+* [Download for Chromium-based browsers (Vivaldi, Brave, etc.)](https://chrome.google.com/webstore/detail/ooh-fa-fa/kgcicoafpgpdacefjciadhbppiladlkm)
+* [Download for Firefox](https://addons.mozilla.org/firefox/addon/ooh-fa-fa/)
+
 ## Features
 
 * Ability to change main chart colour, e.g. to match your brand's colour.
